@@ -1,1 +1,2 @@
-script.js
+// click
+//go to text

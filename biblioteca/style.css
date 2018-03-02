@@ -18,3 +18,23 @@ p{		margin: auto;
 		font-size: 25px;
 		font-weight: bold;
 		font-variant: normal;}
+
+#indicador{	background-color: gold;
+			color: maroon;
+			font-family: Arial, Helvetica, sans-serif;
+			font-style: oblique;
+			font-size: 35px;
+			font-weight: bold;
+			font-variant: normal;} 
+
+.escritos{	background-color: maroon;
+			color: gold;
+			text-align: justify;}
+
+.poemas{	background-color: gold;
+			color: maroon;
+			text-align: justify;}
+
+footer{		background-color: maroon;
+			color: gold;
+			text-align: center;}
