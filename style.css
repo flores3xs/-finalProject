@@ -1,55 +1,72 @@
+body{	display: flex;
+		flex-direction: column;}
 header{	background-color: green;
 		color: blue;
-		height: 75px;
-}
-	h1{	margin: auto;
-		width: 30%;
-		border: none;
-		padding: 7px;
+		padding-top: 3px;
+    	padding-right: 3px;
+    	padding-bottom: 3px;
+    	padding-left: 3px;}
+	h1{	text-align: center;
+		padding-top: 5px;
+    	padding-right: 5px;
+    	padding-bottom: 5px;
+    	padding-left: 5px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-style: oblique;
-		font-size: 45px;
+		font-size: 2.5em;
+		font-weight: bold;
+		font-variant: normal;}
+	h2{	text-align: center;
+		padding-top: 5px;
+    	padding-right: 5px;
+    	padding-bottom: 5px;
+    	padding-left: 5px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: oblique;
+		font-size: 2em;
 		font-weight: bold;
 		font-variant: normal;}
 
-main{	background-color: blue;
+main{	display: flex;
+		flex-direction: row;
+		background-color: blue;
 		color: blue;
-		height: 650px;
-		font-size: 50px;}
-	h2{	margin: auto;
-		width: 22%;
-		border: none;
-		padding: 5px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-style: oblique;
-		font-size: 45px;
-		font-weight: bold;
-		font-variant: normal;}
+		padding-top: 25px;
+    	padding-right: 25px;
+    	padding-bottom: 25px;
+    	padding-left: 25px;
+		height: 75vh;
+		font-size: 2.5em;}
 #cuentos{background-color: green;
-		height: 500px;
-		width: 550px;
-		float: left;
-		padding: 25px;
-		position: relative;
-		left: 100px;}
+		padding-top: 25px;
+    	padding-right: 25px;
+    	padding-bottom: 25px;
+    	padding-left: 25px;
+		width: 35vw;
+		margin-right: 4.5%;
+		margin-left: 7.5%;}
 #biblioteca{background-color: green;
-		height: 500px;
-		width: 550px;
-		float: right;
-		padding: 25px;
-		position: relative;
-		right: 100px;}
-	a{	text-align: center;
-		padding: 55px;
-		line-height: 450px;}
+		padding-top: 25px;
+    	padding-right: 25px;
+    	padding-bottom: 25px;
+    	padding-left: 25px;
+		width: 35vw;
+		margin-right: 7.5%;
+		margin-left: 4.5%;}
+a{	padding-left: 60px;
+	line-height: 450px;}
 
 
-footer{	background-color: green;
+footer{	/*display: flex;
+		flex-direction: column;
+		justify-content: center;*/
+		background-color: green;
 		color: blue;
-		height: 100px;}
-	.final{	margin: auto;
-			width: 30%;
-			border: none;
+		padding-top: 5px;
+    	padding-right: 5px;
+    	padding-bottom: 5px;
+    	padding-left: 5px;}
+	.final{	text-align: center;
 			font-family: Arial, Helvetica, sans-serif;
 			font-style: oblique;
 			font-size: 30px;

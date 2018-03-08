@@ -1,17 +1,20 @@
+body{	display: flex;
+		flex-direction: column;}
 header{	background-color: red;
 		color: white;
-		height: 100px;}
+		padding: 3px;}
 h1{		margin: auto;
-		width: 30%;
+		width: 25vw;
 		border: none;
 		padding: 7px;
+		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
 		font-style: oblique;
-		font-size: 45px;
+		font-size: 35px;
 		font-weight: bold;
 		font-variant: normal;}
 p{		margin: auto;
-		width: 10%;
+		text-align: center;
 		border: none;
 		padding: 3px;
 		font-family: Arial, Helvetica, sans-serif;
@@ -20,22 +23,54 @@ p{		margin: auto;
 		font-weight: bold;
 		font-variant: normal;}
 
+main{	font-size: 22px;
+text-align: center;
+font-weight: normal;}
+
 #indicador{	background-color: white;
 			color: red;
 			font-family: Arial, Helvetica, sans-serif;
 			font-style: oblique;
 			font-size: 35px;
 			font-weight: bold;
-			font-variant: normal;}
+			font-variant: normal;
+			text-align: center;
+			height: 15vh;
+			padding: 3px;}
+	li{		font-weight: normal;
+			font-size: 25px;}
 
-.cuentos{ 	background-color: red;
+.titulo{	font-weight: bold;}
+.sub{		font-size: 25px;
+			font-style: italic;
+			font-weight: normal;}
+
+.Russia{ 	background-color: red;
 			color: white;
-			text-align: justify;}
+			text-align: center;
+			padding-top: 25px;
+    		padding-right: 25px;
+    		padding-bottom: 25px;
+    		padding-left: 25px;}
 
-.prosas{ 	background-color: white;
+.Conversacion{background-color: white;
 			color: red;
-			text-align: justify;}
+			text-align: center;
+			padding-top: 25px;
+    		padding-right: 25px;
+    		padding-bottom: 25px;
+    		padding-left: 25px;}
 
-footer{	background-color: red;
-		color: white;
-		text-align: center;}
+.puta{		background-color: red;
+			color: white;
+			text-align: center;
+			padding-top: 25px;
+    		padding-right: 25px;
+    		padding-bottom: 25px;
+    		padding-left: 25px;}
+
+footer{	/*background-color: red;*/
+		color: red;/*white;*/
+		font-size: 35px;
+		text-align: center;
+		height: 50px;}

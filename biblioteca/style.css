@@ -1,16 +1,20 @@
+body{	display: flex;
+		flex-direction: column;}
 header{	background-color: maroon;
-		color: gold;}
+		color: gold;
+		padding: 3px;}
 h1{		margin: auto;
-		width: 30%;
+		width: 25vw;
 		border: none;
 		padding: 7px;
+		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
 		font-style: oblique;
 		font-size: 35px;
 		font-weight: bold;
 		font-variant: normal;}
 p{		margin: auto;
-		width: 12%;
+		text-align: center;
 		border: none;
 		padding: 3px;
 		font-family: Arial, Helvetica, sans-serif;
@@ -19,22 +23,51 @@ p{		margin: auto;
 		font-weight: bold;
 		font-variant: normal;}
 
+main{font-size: 22px;
+	text-align: center;
+	font-weight: normal;}
+
 #indicador{	background-color: gold;
 			color: maroon;
 			font-family: Arial, Helvetica, sans-serif;
 			font-style: oblique;
 			font-size: 35px;
 			font-weight: bold;
-			font-variant: normal;} 
+			font-variant: normal;
+			text-align: center;
+			height: 15vh;
+			padding: 3px;} 
+	li{		font-weight: normal;
+			font-size: 25px;}
 
-.escritos{	background-color: maroon;
+.titulo{	font-weight: bold;}
+.sub{		font-size: 25px;
+			font-style: italic;
+			font-weight: normal;}
+
+.Aprendi{	background-color: maroon;
 			color: gold;
-			text-align: justify;}
+			text-align: center;
+			padding-top: 25px;
+    		padding-right: 25px;
+    		padding-bottom: 25px;
+    		padding-left: 25px;}
 
-.poemas{	background-color: gold;
+.Te-amo{	background-color: gold;
 			color: maroon;
-			text-align: justify;}
+			text-align: center;
+			padding-top: 25px;
+    		padding-right: 25px;
+    		padding-bottom: 25px;
+    		padding-left: 25px;}
 
-footer{		background-color: maroon;
+.Morazan{	background-color: maroon;
 			color: gold;
-			text-align: center;}
+			text-align: center;
+			}
+
+footer{		background-color: gold;
+			color: maroon;
+			font-size: 35px;
+			text-align: center;
+			height: 7vh;}
