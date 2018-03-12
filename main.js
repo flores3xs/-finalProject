@@ -1,4 +1,4 @@
-console.log('CERF is connected')
+console.log('#pasoFino')
 
 $(document).ready(function(){
 	
