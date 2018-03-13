@@ -2,41 +2,41 @@ body{	display: flex;
 		flex-direction: column;}
 header{	background-color: maroon;
 		color: gold;
-		padding-top: 15px;
-    	padding-right: 15px;
-    	padding-bottom: 15px;
-    	padding-left: 15px;}
+		padding-top: 1vh;
+    	padding-right: 1vw;
+    	padding-bottom: 1vh;
+    	padding-left: 1vw;}
 h1{		margin: auto;
 		width: 25vw;
 		border: none;
-		padding-top: 10px;
-    	padding-right: 10px;
-    	padding-bottom: 10px;
-    	padding-left: 10px;
+		padding-top: 1vh;
+    	padding-right: 1vw;
+    	padding-bottom: 1vh;
+    	padding-left: 1vw;
 		text-align: center;
 		font-family: Arial, Helvetica, sans-serif;
 		font-style: oblique;
-		font-size: 35px;
+		font-size: 3.5vw;
 		font-weight: bold;
 		font-variant: normal;}
 p{		margin: auto;
 		text-align: center;
-		padding-top: 7px;
-    	padding-right: 7px;
-    	padding-bottom: 7px;
-    	padding-left: 7px;
+		padding-top: 1vh;
+    	padding-right: 1vw;
+    	padding-bottom: 1vh;
+    	padding-left: 1vw;
 		font-family: Arial, Helvetica, sans-serif;
 		font-style: oblique;
-		font-size: 25px;
+		font-size: 2.5vw;
 		font-weight: bold;
 		font-variant: normal;}
 button{	background-color: green;
 		color: blue;
-		font-size: 18px;
+		font-size: 2vw;
 		font-weight: bold;
 		border: none;}
 
-main{font-size: 22px;
+main{font-size: 2vw;
 	text-align: center;
 	font-weight: normal;}
 h2{ font-weight: bold; }
@@ -44,46 +44,67 @@ h2{ font-weight: bold; }
 			color: maroon;
 			font-family: Arial, Helvetica, sans-serif;
 			font-style: oblique;
-			font-size: 35px;
+			font-size: 3.5vw;
 			font-weight: bold;
 			font-variant: normal;
 			text-align: center;
-			padding-top: 7px;
-    		padding-right: 7px;
-    		padding-bottom: 7px;
-    		padding-left: 7px;} 
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;} 
 	li{		font-weight: normal;
-			font-size: 25px;}
+			font-size: 2vw;
+			padding-top: 1vh;}
 
-.titulo{	font-weight: bold;}
-.sub{		font-size: 25px;
+.titulo{	font-weight: bold;
+			font-size: 3vw;}
+.sub{		font-size: 2.5vw;
 			font-style: italic;
 			font-weight: normal;}
 
 #Aprendi{	background-color: maroon;
 			color: gold;
 			text-align: center;
-			padding-top: 25px;
-    		padding-right: 25px;
-    		padding-bottom: 25px;
-    		padding-left: 25px;}
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;}
 
 #Te-amo{	background-color: gold;
 			color: maroon;
 			text-align: center;
-			padding-top: 25px;
-    		padding-right: 25px;
-    		padding-bottom: 25px;
-    		padding-left: 25px;}
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;}
 
 #Morazan{	background-color: maroon;
 			color: gold;
 			text-align: center;
-			}
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;}
+
+#soy{		background-color: gold;
+			color: maroon;
+			text-align: center;
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;}
+
+#Wilcock{	background-color: maroon;
+			color: gold;
+			text-align: center;
+			padding-top: 1vh;
+    		padding-right: 1vw;
+    		padding-bottom: 1vh;
+    		padding-left: 1vw;}
 
 footer{		background-color: gold;
 			color: maroon;
-			font-size: 35px;
+			font-size: 3.2vw;
 			text-align: center;
 			height: 7vh;}
 
