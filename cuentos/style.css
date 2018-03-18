@@ -1,112 +1,154 @@
-body{	display: flex;
-		flex-direction: column;}
-header{	background-color: red;
-		color: white;
-		padding-top: 1vh;
-    	padding-right: 1vw;
-    	padding-bottom: 1vh;
-    	padding-left: 1vw;}
-h1{		margin: auto;
-		width: 25vw;
-		border: none;
-		padding-top: 1vh;
-    	padding-right: 1vw;
-    	padding-bottom: 1vh;
-    	padding-left: 1vw;
-		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
-		font-style: oblique;
-		font-size: 3.5vw;
-		font-weight: bold;
-		font-variant: normal;}
-p{		margin: auto;
-		text-align: center;
-		border: none;
-		padding-top: 1vh;
-    	padding-right: 1vw;
-    	padding-bottom: 1vh;
-    	padding-left: 1vw;
-		font-family: Arial, Helvetica, sans-serif;
-		font-style: oblique;
-		font-size: 2.5vw;
-		font-weight: bold;
-		font-variant: normal;}
-button{	background-color: green;
-		color: blue;
-		font-size: 1.5vw;
-		font-weight: bold;
-		border: none;}
+body {	
+	display: flex;
+	flex-direction: column;
+}
 
-main{	font-size: 2vw;
-text-align: center;
-font-weight: normal;}
-h2{ font-weight: bold; }
-#indicador{	background-color: white;
-			color: red;
-			font-family: Arial, Helvetica, sans-serif;
-			font-style: oblique;
-			font-size: 3.5vw;
-			font-weight: bold;
-			font-variant: normal;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
-	li{		font-weight: normal;
-			font-size: 2vw;
-			padding-top: 1vh;}
+header {	
+	background-color: red;
+	color: white;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
 
-.titulo{	font-weight: bold;
-			font-size: 3vw;}
-.sub{		font-size: 2.5vw;
-			font-style: italic;
-			font-weight: normal;}
+h1 {		
+	margin: auto;
+	width: 25vw;
+	border: none;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size: 3.5vw;
+	font-weight: bold;
+	font-variant: normal;
+}
 
-#Russia{ 	background-color: red;
-			color: white;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
+p {		
+	margin: auto;
+	text-align: center;
+	border: none;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size: 2.5vw;
+	font-weight: bold;
+	font-variant: normal;
+}
 
-#Conversacion{background-color: white;
-			color: red;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
+button {	
+	background-color: green;
+	color: blue;
+	font-size: 1.5vw;
+	font-weight: bold;
+	border: none;
+}
 
-#puta{		background-color: red;
-			color: white;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
+main {	
+	font-size: 2vw;
+	text-align: center;
+	font-weight: normal;
+}
 
-#tu{		background-color: white;
-			color: red;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
+h2 { 
+	font-weight: bold; 
+}
 
-#tregua{ 	background-color: red;
-			color: white;
-			text-align: center;
-			padding-top: 1vh;
-    		padding-right: 1vw;
-    		padding-bottom: 1vh;
-    		padding-left: 1vw;}
+#indicador {	
+	background-color: white;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size: 3.5vw;
+	font-weight: bold;
+	font-variant: normal;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
 
-footer{	background-color: white;
-		color: red;
-		font-size: 3.2vw;
-		text-align: center;
-		height: 7vh;}
+li {		
+	font-weight: normal;
+	font-size: 2vw;
+	padding-top: 1vh;
+}
+
+.titulo {	
+	font-weight: bold;
+	font-size: 3vw;
+}
+
+.sub {		
+	font-size: 2.5vw;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#Russia { 	
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
+
+#Conversacion {
+	background-color: white;
+	color: red;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
+
+#puta {		
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
+
+#tu {		
+	background-color: white;
+	color: red;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
+
+#tregua { 	
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+}
+
+footer {	
+	background-color: white;
+	color: red;
+	font-size: 3.2vw;
+	text-align: center;
+	height: 7vh;
+}
 
 /*media queries*/
