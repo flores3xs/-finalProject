@@ -44,11 +44,10 @@ p {
 }
 
 button {	
-	background-color: green;
-	color: blue;
+	background-color: white;
 	font-size: 1.5vw;
 	font-weight: bold;
-	border: none;
+	margin-bottom: 1vh;
 }
 
 main {	
@@ -148,7 +147,25 @@ footer {
 	color: red;
 	font-size: 3.2vw;
 	text-align: center;
-	height: 7vh;
+	height: 20vh;
+}
+
+#myBtn{
+	color: white;
+	background-color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size: 3vw;
+	font-weight: bold;
+	font-variant: normal;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	width: 25vw;
+    height: 15vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 /*media queries*/

@@ -42,7 +42,6 @@ main {
 	display: flex;
 	flex-direction: row;
 	background-color: blue;
-	color: blue;
 	padding-top: 5vh;
 	padding-right: 5vw;
 	padding-bottom: 5vh;
@@ -52,28 +51,23 @@ main {
 }
 
 #cuentos {	
+	color: gold;
 	background-color: green;
-	padding-top: 2vw;
-	padding-right: 2vw;
-	padding-bottom: 2vw;
-	padding-left: 2vw;
 	width: 35vw;
 	margin-right: 4.5%;
 	margin-left: 7.5%;
 }
 
 #biblioteca{
+	color: gold;
 	background-color: green;
-	padding-top: 2vw;
-	padding-right: 2vw;
-	padding-bottom: 2vw;
-	padding-left: 2vw;
 	width: 35vw;
 	margin-right: 7.5%;
 	margin-left: 4.5%;
 }
 
 a{	
+	color: blue;
 	padding-left: 5.2vw;
 	line-height: 55vh;
 }
@@ -88,7 +82,7 @@ footer{
 	padding-left: 1vw;
 }
 
-.final{	
+footer{	
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: oblique;
@@ -97,4 +91,35 @@ footer{
 	font-variant: normal;
 }
 
+#myBtn{
+	color: green;
+	background-color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	font-size: 3vw;
+	font-weight: bold;
+	font-variant: normal;
+	padding-top: 1vh;
+	padding-right: 1vw;
+	padding-bottom: 1vh;
+	padding-left: 1vw;
+	width: 25vw;
+    height: 12vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
 /*media queries and z-index*/
+
+/*#myBtn {
+    width: 300px;
+    padding: 10px;
+    font-size:20px;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    z-index: 9999;
+}
+*/
