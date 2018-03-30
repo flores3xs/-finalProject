@@ -1,9 +1,11 @@
 console.log("#pasoFino")
 
-// modal box for desktop
-// bottom modal for cel phones 
-// header & footer modal (optional)
+// ToolTips
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
 
+// Modal
 $(document).ready(function(){
     $("#myBtn").click(function(){
         $("#myModal").modal("show");

@@ -33,9 +33,14 @@ h2 {
 	padding-left: 1vw;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: oblique;
-	font-size: 3vw;
+	font-size: 5vw;
 	font-weight: bold;
 	font-variant: normal;
+}
+
+.dropdown-menu {
+	margin-left: 40vw;
+	text-align: center;
 }
 
 main {
@@ -47,7 +52,7 @@ main {
 	padding-bottom: 5vh;
 	padding-left: 5vw;
 	height: 75vh;
-	font-size: 2.5vw;
+
 }
 
 #cuentos {	
@@ -67,8 +72,9 @@ main {
 }
 
 a{	
+	font-size: 2.9vw;
 	color: blue;
-	padding-left: 5.2vw;
+	padding-left: 4.2vw;
 	line-height: 55vh;
 }
 
@@ -111,15 +117,41 @@ footer{
 
 /*media queries and z-index*/
 
-/*#myBtn {
-    width: 300px;
-    padding: 10px;
-    font-size:20px;
-    position: absolute;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-    bottom: 50px;
-    z-index: 9999;
+/*add Responsiveness = media queries*/
+
+@media screen and (max-width: 600px) {
+    main {
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	font-size: 5vw;
+	text-align: center;
+	height: 82vh;
+
 }
-*/
+
+#cuentos {	
+	background-color: green;
+	height: 32vh;
+	width: 75vw;
+	margin-top: 3vh;
+	margin-right: 5vw;
+	margin-bottom: 1vh;
+	margin-left: 5vw;
+}
+
+#biblioteca{
+	background-color: green;
+	height: 32vh;
+	width: 75vw;
+	margin-top: 1vh;
+	margin-right: 5vw;
+	margin-bottom: 3vh;
+	margin-left: 5vw;
+}
+
+a{	
+	color: blue;
+	line-height: 32vh;
+}
+}

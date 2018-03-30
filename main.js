@@ -4,11 +4,11 @@ $(document).ready(function(){
 	
 }) 
 
-// modal box for desktop
-// bottom modal for cel phones 
-// header & footer modal (optional)
-// (modal) Methods: show & hide  - Events: show & hide
+// DropDown
 
+// ToolTips (Cuentos) (Biblioteca)
+
+// modal
 
 $(document).ready(function(){
     $("#myBtn").click(function(){
