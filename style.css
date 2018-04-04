@@ -124,8 +124,6 @@ footer{
 	display: flex;
 	flex-direction: column;
 	background-color: blue;
-	font-size: 5vw;
-	text-align: center;
 	height: 82vh;
 
 }
@@ -138,6 +136,8 @@ footer{
 	margin-right: 5vw;
 	margin-bottom: 1vh;
 	margin-left: 5vw;
+	font-size: 22vw;
+	text-align: center;
 }
 
 #biblioteca{
@@ -148,6 +148,8 @@ footer{
 	margin-right: 5vw;
 	margin-bottom: 3vh;
 	margin-left: 5vw;
+	font-size: 22vw;
+	text-align: center;
 }
 
 a{	

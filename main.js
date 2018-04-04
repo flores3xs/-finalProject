@@ -5,17 +5,18 @@ $(document).ready(function(){
 }) 
 
 // DropDown
-
-// ToolTips (Cuentos) (Biblioteca)
+console.log('DropDown not JS')
 
 // modal
+
+console.log('press button -> modal')
 
 $(document).ready(function(){
     $("#myBtn").click(function(){
         $("#myModal").modal("show");
     });
         $("#myModal").on('hidden.bs.modal', function () {
-            alert('"V for Victory"(Winston Churchill) #pasoFino');
+            alert('"Ya que lejos de mí vas a estar; guarda, niña, un gentil pensamiento; al que un día te quiso contar; un cuento." (Ruben Dario)');
     });
 });
 
